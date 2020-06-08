@@ -1,0 +1,96 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:lightgray;
+}
+h1{
+	font-size:100px;
+	color:gray;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	margin-top:7%;
+	letter-spacing:10px;
+}
+hr{
+	width: 70%;
+	margin:auto;
+	height:3px;
+	background-color:white;
+	border:none;
+}
+a{
+	text-decoration:none;
+	width:100%;
+}
+button{
+	color:green;
+	background:transparent;
+	border: 1.5px solid whitesmoke;
+	width:200px;
+	padding:0px 10px;
+	font-size: 20px;
+	margin-left:43%;
+	border-radius:50px;
+	cursor:pointer;
+	margin-top:10px;
+}
+a :hover{
+	background-color:green;
+	color:whitesmoke;
+	border-radius:50px;
+	transition: .8s;
+}
+.wrapper{
+	position: absolute;
+	top: 65%;
+	transform: translateY(-50%);
+	width: 97%;
+	padding: 0px 20px;
+}
+.contact-form{
+	max-width: 950px;
+	margin: 0px auto;
+	background: rgba(0,0,0,0.8);
+	padding:50px;
+	border-radius: 15px;
+	display: flex;
+	box-shadow: 0 0 10px;
+	height:250px;
+}
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right:4%;
+}
+.input-fields,
+.msg{
+	width: 70%;
+}
+.input-fields .a,
+.msg textarea{
+	margin:10px 0px;
+	background: transparent;
+	border: 0;
+	border-bottom: 3px solid #c5ecfd;
+	padding: 10px;
+	color: #c5ecfd;
+	width:100%;
+	font-size:15px;
+}
+.msg textarea{
+	height: 200px;
+}
+.btn input{
+	background: #c5ecfd;
+	color:white;
+	text-align:center;
+	padding: 5px;
+	border-radius:20px;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	float: right;
+	width: 50%;
+	border:none;
+}

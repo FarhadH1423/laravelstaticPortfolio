@@ -1,0 +1,70 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:lightgray;
+}
+h1{
+	font-size:100px;
+	color:gray;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	margin-top:7%;
+	letter-spacing:10px;
+}
+hr{
+	width: 70%;
+	margin-auto;
+	height:3px;
+	background-color:whitesmoke;
+	border:none;
+}
+a{
+	text-decoration:none;
+	
+	width:100%;
+}
+a button{
+	color:green;
+	background:transparent;
+	border: 1.5px solid whitesmoke;
+	width:200px;
+	padding:0px 10px;
+	font-size: 20px;
+	margin-left:43%;
+	border-radius:50px;
+	cursor:pointer;
+}
+a :hover{
+	background-color:green;
+	color:whitesmoke;
+	border-radius:50px;
+	transition: .8s;
+}
+img{
+	width:800px;
+	height:800px;
+	float:left;
+}
+.detail{
+	padding:10px;
+	width:700px;
+	box-sizing:border-box;
+	float:right;
+}
+h2{
+	font-size:25px;
+	color: slategray;
+	width:200px;
+}
+.contact{
+	padding:10px;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	background:lightyellow;
+}
+p{
+	margin:0;
+	padding:0;
+	margin-left:100px;
+}

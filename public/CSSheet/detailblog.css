@@ -1,0 +1,39 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:lightgray;
+}
+a{
+	text-decoration:none;
+	width:100%;
+}
+button{
+	margin-top:100px;
+	color:green;
+	background:transparent;
+	border: 1.5px solid whitesmoke;
+	width:200px;
+	padding:0px 10px;
+	font-size: 20px;
+	margin-left:24%;
+	border-radius:50px;
+	cursor:pointer;
+}
+a :hover{
+	background-color:green;
+	color:whitesmoke;
+	border-radius:50px;
+	transition: .8s;
+}
+.firstblog{
+	width:800px;
+	box-sizing:border-box;
+	margin:auto;
+	padding:10px;
+	margin-top:30px;
+	
+}
+.firstblog img{
+	width:500px;
+	height:300px;
+}
